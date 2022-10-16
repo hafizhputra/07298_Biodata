@@ -1,0 +1,558 @@
+:root {
+  /* COLOR */
+  --primaryColor: #002939;
+  --secondaryColor: #ddc190;
+
+  /* FONT */
+  --mainFont: 'Open Sans', sans-serif;
+  --headingFont: 'Merriweather', serif;
+  --headingFont2: 'Fuzzy Bubbles', cursive;
+}
+
+body {
+  /* font global di body */
+  font-family: var(--mainFont);
+}
+
+/* tampilan mobile */
+
+.home {
+  background-color: var(--primaryColor);
+  height: auto;
+  padding-top: 3rem;
+}
+
+/* header */
+.home .heading-1 {
+  color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  font-size: 3rem;
+}
+
+.home .subheading-1 {
+  font-size: 2rem;
+}
+
+.home .content-text {
+  margin-right: 60px;
+  padding-top: 40px;
+}
+
+/* button sosmed */
+.button {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-sosmed1 {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  border: 2px solid #000000;
+  box-shadow: 0 0 10px var(--secondaryColor);
+  border-radius: 50px 50px 50px 50px;
+}
+
+.button-sosmed1:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.image-sosmed {
+  width: 15px;
+  height: 15px;
+}
+
+/* konten about me */
+
+.home .text-about-me {
+  margin-top: 50px;
+}
+
+.home .h1-about {
+  font-family: var(--headingFont2);
+}
+
+.home .heading-nama {
+  color: var(--secondaryColor);
+  font-family: var(--headingFont);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.home .heading-about {
+  padding-right: 40px;
+}
+
+.home .garis {
+  color: var(--secondaryColor);
+}
+
+.home .sub-heading-negaradll {
+  color: var(--secondaryColor);
+  font-family: var(--headingFont);
+
+  font-size: 15px;
+}
+
+/* skil */
+.home .h1-skils {
+  font-family: var(--headingFont2);
+  font-size: 2rem;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background: #002939;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.card-5 {
+  box-shadow: -12px -12px 38px rgb(0, 57, 90), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.home .skils-image-icon {
+  padding-top: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.home .skils-font-icon {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.home .skils-font-icon-panjang {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+
+/* footer */
+
+.home .footer{
+margin-top: 150px;
+padding: 30px;
+box-shadow: -12px -12px 38px rgba(255, 255, 255, 0.411), 0 15px 12px rgba(0, 0, 0, 0.22);
+background-color: --primaryColor #002939;
+
+}
+
+.home .link-copyright{
+  color:#ddc190;
+}
+
+
+
+
+
+
+/* tampilan tablet */
+@media screen and (min-width: 768px) {
+  /* home */
+
+  /* header */
+  .home .heading-1 {
+    color: var(--secondaryColor);
+    font-family: var(--headingFont);
+    font-size: 4rem;
+  }
+
+  .home .subheading-1 {
+    font-size: 4rem;
+  }
+
+  .home .subheading-p {
+    font-size: 1.5rem;
+  }
+
+  /* button sosmed */
+  .button {
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button-sosmed1 {
+    background-color: var(--primaryColor);
+
+    color: var(--secondaryColor);
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px var(--secondaryColor);
+    border-radius: 50px 50px 50px 50px;
+  }
+
+  .button-sosmed1:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  .image-sosmed {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* konten about me */
+  .home .heading-nama {
+    color: var(--secondaryColor);
+    font-family: var(--headingFont);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .home .heading-about {
+    padding-right: 100px;
+  }
+
+  .home .sub-heading-negaradll {
+    color: var(--secondaryColor);
+    font-family: var(--headingFont);
+
+    font-size: 15px;
+  }
+
+  /* skil */
+  .home .h1-skils {
+    font-family: var(--headingFont2);
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .card {
+    background: #002939;
+    border-radius: 2px;
+    display: inline-block;
+    height: 600px;
+    margin: 1rem;
+    position: relative;
+    width: 600px;
+  }
+
+  .card-5 {
+    box-shadow: -12px -12px 38px rgb(0, 57, 90), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+  }
+
+  .home .skils-image-icon {
+    padding-top: 30px;
+    width: 450px;
+    height: 450px;
+  }
+
+  .home .skils-font-icon {
+    padding-top: 30px;
+    font-size: 60px;
+  }
+
+  .home .skils-font-icon-panjang {
+    padding-top: 30px;
+    font-size: 60px;
+  }
+
+
+  /* footer */
+  .home .footer{
+    margin-top: 150px;
+    padding: 30px;
+    box-shadow: -12px -12px 38px rgba(255, 255, 255, 0.411), 0 15px 12px rgba(0, 0, 0, 0.22);
+    background-color: --primaryColor #002939;
+    font-size: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tampilan monitor */
+@media screen and (min-width: 992px) {
+  /* header */
+
+  /* .content-text {
+    margin-right: 60px;
+  } */
+
+  .home .heading-1 {
+    color: var(--secondaryColor);
+    font-family: var(--headingFont);
+    font-size: 4rem;
+  }
+
+  .home .subheading-1 {
+    font-size: 3.20rem;
+  }
+
+  .home .content-image {
+    background-color: var(--secondaryColor);
+    border-radius: 50px 50px 50px 50px;
+    margin-left: -120px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .home .content-image img {
+    border-radius: 50px 50px 50px 50px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  /* efek foto */
+  .content-image2 {
+    transition-duration: 1s;
+    transition-property: transform;
+  }
+
+  .content-image img:hover {
+    transform: scale(1.2);
+  }
+  /* batas efek foto */
+
+  .home .subheading-p {
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+  }
+
+  /* button sosmed */
+  .button {
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button-sosmed1 {
+    background-color: var(--primaryColor);
+
+    color: var(--secondaryColor);
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px var(--secondaryColor);
+    border-radius: 50px 50px 50px 50px;
+  }
+
+  .button-sosmed1:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  .image-sosmed {
+    width: 25px;
+    height: 25px;
+  }
+
+  /* konten about me */
+
+  .home .text-about-me {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .home .h1-about {
+    font-family: var(--headingFont2);
+    font-size: 2rem;
+  }
+
+  /* efek tulisan about */
+  .h1-about {
+    color: transparent;
+    transform: scale(1);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .active {
+    color: transparent;
+  }
+
+  /* batasan efek tulisan about */
+
+  .home .image-about {
+    background-color: var(--secondaryColor);
+    border-radius: 200px;
+    margin-left: 60px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .home .image-about img {
+    border-radius: 50px 50px 50px 50px;
+    height: 450px;
+  }
+
+  .home .heading-nama {
+    color: var(--secondaryColor);
+    font-family: var(--headingFont);
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .home .heading-about {
+    padding-right: 30px;
+  }
+
+  /* transisi nama */
+  .transisi-font-nama {
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+  }
+
+  .active {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* batas transisi */
+
+  .home .garis {
+    color: var(--secondaryColor);
+  }
+
+  .row-biodata {
+    margin-bottom: 200px;
+  }
+
+  .home .sub-heading-negaradll {
+    color: var(--secondaryColor);
+    font-family: var(--headingFont);
+
+    font-size: 15px;
+  }
+
+  /* skils */
+
+  .h1-skils {
+    font-family: var(--headingFont2);
+    font-size: 2rem;
+    margin-bottom: 80px;
+  }
+
+  .home .col-icon {
+    margin-left: 50px;
+  }
+
+  /* animation icon skill */
+
+  .animation-text-skill{
+    opacity: 0;
+    transform: translatex(-50px);
+    transition: all -400ms ease-in-out;
+  }
+
+  .active3 {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 400ms ease-in-out 200ms;
+  }
+
+  .animation-icon {
+    opacity: 0;
+    transform: translatey(50px);
+    transition: all 400ms ease-in-out;
+  }
+
+  .active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 800ms ease-in-out 200ms;
+  }
+
+  .animation-icon2 {
+    opacity: 0;
+    transform: translatey(50px);
+    transition: all 400ms ease-in-out;
+  }
+
+
+  .active2 {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 1000ms ease-in-out 600ms;
+  }
+ 
+ 
+
+  /* batas animation icon skill */
+
+  .card {
+    background: #002939;
+    border-radius: 2px;
+    display: inline-block;
+    height: 80px;
+    margin: 1rem;
+    position: relative;
+    width: 80px;
+  }
+
+  .card-5 {
+    box-shadow: -12px -12px 38px rgb(0, 57, 90), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+  }
+
+  .home .skils-image-icon {
+    padding-top: 10px;
+    width: 45px;
+    height: 50px;
+  }
+
+  .home .skils-font-icon {
+    padding-top: 2px;
+    font-size: 15px;
+  }
+
+  .home .skils-font-icon-panjang {
+    padding-top: 2px;
+    font-size: 13px;
+  }
+
+  /* footer */
+  .home .footer{
+    margin-top: 150px;
+    padding: 30px;
+    box-shadow: -12px -12px 38px rgba(255, 255, 255, 0.411), 0 15px 12px rgba(0, 0, 0, 0.22);
+    background-color: --primaryColor #002939;
+    font-size: 15px;
+    }
+}
